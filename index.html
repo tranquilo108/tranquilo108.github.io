@@ -4,35 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://tranquilo108.github.io/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
 </head>
 <body>
-    <main>
-        <h1>Никита Михайлов</h1>
-        <h2>Создатель профессии «Верстальщик» на Hexlet</h2>
-      
-        <hr>
-      
-        <section>
-          <h2>Ключевые навыки:</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
+
+    <div class="wrapper">
+        <section class="screen">
+            0
         </section>
-      
-        <section>
-          <h2>О преподавателе</h2>
-          <p>
-            Много лет работал в аутсорсинговой компании. Развивал клиентские проекты,
-            делал фичи для разных CMS. В основном верстал, готов передать весь опыт
-            вам. Поработав с сотнями проектов, научился выкручиваться даже из самых
-            безнадежных ситуаций. Поможет освоить верстку, чтобы она перестала
-            казаться чем-то страшным.
-          </p>
+        <section class="calc-buttons">
+            <div class="calc-button-row">
+                <button class="calc-button double">
+                    C
+                </button>
+                <button class="calc-button">
+                    &larr;
+                </button>
+                <button class="calc-button">
+                    &divide;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button">
+                    7
+                </button>
+                <button class="calc-button">
+                    8
+                </button>
+                <button class="calc-button">
+                    9
+                </button>
+                <button class="calc-button">
+                    &times;
+                </button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">
+                    4
+                </button>
+                <button class="calc-button">
+                    5
+                </button>
+                <button class="calc-button">
+                    6
+                </button>
+                <button class="calc-button">
+                    &minus;
+                </button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">
+                    1
+                </button>
+                <button class="calc-button">
+                    2
+                </button>
+                <button class="calc-button">
+                    3
+                </button>
+                <button class="calc-button">
+                    &plus;
+                </button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button triple">
+                    0
+                </button>
+                <button class="calc-button triple">
+                    &equals;
+                </button>
+            </div>
+
+            
         </section>
-      </main>
+    </div>
+
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
